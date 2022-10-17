@@ -17,8 +17,8 @@ export type ErrorLoggerContextState = {
   addMessage: (message: Message) => void;
   removeMessage: (message: Message) => void;
   clearMessage: () => void;
-  stopMessage: (message: Message) => void;
-  startMessage: (message: Message) => void;
+  stopMessage: () => void;
+  startMessage: () => void;
 };
 
 // default values for context
