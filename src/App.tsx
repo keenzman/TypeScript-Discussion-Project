@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ErrorLoggerContext, Message } from "./context/logger-context";
+import LandingPage from "./components/landing-page";
 
 function App() {
   const [messages, setMessages] = useState<Message[]>([]);
